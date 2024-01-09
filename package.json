@@ -1,0 +1,31 @@
+{
+  "name": "qna3ai-scripts",
+  "version": "1.0.0",
+  "description": "qna3ai 自动签到脚本",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AxyLm/qna3ai-script.git"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/wallet": "^5.7.0",
+    "@total-typescript/ts-reset": "^0.4.2",
+    "@types/node": "^18.7.13",
+    "axios": "^1.6.5",
+    "bignumber.js": "^9.1.1",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.3.1",
+    "ethers": "5.7.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typedoc": "^0.23.28",
+    "typescript": "^4.8.2"
+  }
+}
