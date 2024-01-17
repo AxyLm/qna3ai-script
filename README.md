@@ -29,10 +29,6 @@ pnpm install
 pnpm run start
 ```
 
-## Auth by
-
-0x0fBA766CBBFFB95831be9F4e99c721Ca47777777
-
 # 免责声明
 
 该项目是一个开源项目，您可以自由使用、修改和分发。然而，请注意以下事项：
