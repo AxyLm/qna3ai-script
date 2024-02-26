@@ -8,7 +8,7 @@ import { Qna3 } from "./scirpts/qna3ai";
   }
 
   const wallet = new Wallet(process.env.WALLET_PRIVATEKEY);
-  const qna3 = new Qna3(wallet, 206);
+  const qna3 = new Qna3(wallet, 204);
 
   // login and check in
 

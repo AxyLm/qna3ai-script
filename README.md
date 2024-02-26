@@ -13,7 +13,7 @@ WALLET_PRIVATEKEY=0x6623c5f41a4b295f5fadc4069a05c5d4166a558ba0a7c62e0e781bd0c1d3
 
 ```js
 const wallet = new Wallet(process.env.WALLET_PRIVATEKEY);
-const qna3 = new Qna3(wallet, 206);
+const qna3 = new Qna3(wallet, 204);
 
 // 登录(第一次登录就需要绑定邀请码)
 await qna3.login("78yppP2H");

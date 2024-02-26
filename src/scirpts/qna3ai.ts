@@ -19,7 +19,7 @@ import abi from "./abi";
 import BigNumber from "bignumber.js";
 
 const chainIds = {
-  206: {
+  204: {
     provider: new ethers.providers.JsonRpcProvider("https://opbnb.publicnode.com"),
   },
   56: {
@@ -62,9 +62,9 @@ export class Qna3 {
   /**
    * Qna3
    * @param wallet user wallet
-   * @param chainId  56 | 206
+   * @param chainId  56 | 204
    */
-  constructor(private readonly wallet: Wallet, readonly chainId: 56 | 206) {
+  constructor(private readonly wallet: Wallet, readonly chainId: 56 | 204) {
     this.provider = chainIds[chainId].provider;
     this.wallet.connect(this.provider);
     this.contract = new ethers.Contract("0xB342e7D33b806544609370271A8D074313B7bc30", abi, wallet.connect(this.provider));
